@@ -5,3 +5,4 @@ tensorflow
 pillow
 python-multipart
 gdown
+deep-translator
