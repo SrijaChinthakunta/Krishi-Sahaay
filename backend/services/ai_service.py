@@ -1,5 +1,6 @@
 from groq import Groq
 from deep_translator import GoogleTranslator
+import os
 
 client = Groq(api_key="GROQ_API_KEY")
 
