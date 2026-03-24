@@ -2,9 +2,10 @@ from groq import Groq
 from deep_translator import GoogleTranslator
 import os
 
-client = Groq(api_key="GROQ_API_KEY")
 
-# 🔥 language mapping
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+
+# language mapping
 lang_map = {
     "English": "en",
     "Telugu": "te",
@@ -19,7 +20,7 @@ def get_ai_response(question: str, lang: str = "English"):
     if target_lang != "en":
         question = GoogleTranslator(source='auto', target='en').translate(question)
 
-    # Step 2: AI
+    # Step 2: AI response
     chat = client.chat.completions.create(
         messages=[
             {
