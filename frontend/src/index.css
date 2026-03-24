@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #c8f7c5, #7bd389);
+}
+
+
+
+/* Glass card */
+.glass {
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+
+.glass:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+/* Buttons */
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: #1b5e20;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #2e7d32;
+  transform: scale(1.05);
+}
+
+.card {
+  width: 250px;
+  padding: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}

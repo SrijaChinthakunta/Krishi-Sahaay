@@ -1,0 +1,8 @@
+{
+  "appId": "com.srija.krishisahaay",
+  "appName": "Krishi Sahaay",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http"
+  }
+}
