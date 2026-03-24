@@ -1,7 +1,7 @@
 from groq import Groq
 from deep_translator import GoogleTranslator
 
-client = Groq(api_key="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")
+client = Groq(api_key="GROQ_API_KEY")
 
 # 🔥 language mapping
 lang_map = {
